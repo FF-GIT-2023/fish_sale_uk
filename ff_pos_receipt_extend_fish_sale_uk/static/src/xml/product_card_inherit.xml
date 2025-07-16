@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="point_of_sale.ProductCard" t-inherit="point_of_sale.ProductCard"
+       t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('product-content')]"
+               position="replace">
+            <div class="overflow-hidden lh-sm fw-bolder product-name"
+                    t-att-class="{'no-image': !props.imageUrl}"
+                    t-attf-id="article_product_{{props.productId}}"
+                    t-esc="props.name" />
+            <span class="price-tag text-primary py-1 fw-bolder"/>
+        </xpath>
+    </t>
+</templates>

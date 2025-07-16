@@ -366,10 +366,6 @@
     box-shadow: 0px 0px 0px 3px #484aa8;
 }
 
-.pos .category-simple-button:active {
-    color: #484aa8;
-}
-
 .pos .switchpane .btn-switchpane.secondary {
     color: #fff;
 }
@@ -397,11 +393,18 @@
     margin-left:10px;
     padding:5px;
     transition: all 0.8s ease;
-    }
-.category-simple-button:hover{
-    background: grey;
-    border-radius:5px;
-    color:#fff;
+}
+
+.pos .category-simple-button {
+  font-weight: bolder;
+  margin-left: 10px;
+  padding: 5px;
+  transition: all 0.8s ease;
+  font-size: 35px !important;
+  background-color: #007bff !important;
+  border-radius: 4px !important;
+  color: #fff !important;
+  cursor: pointer !important;
 }
 
 .btn.cashier-name{

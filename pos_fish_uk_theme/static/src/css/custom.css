@@ -504,13 +504,13 @@
 
 /* Fix: Show full product name on multiple lines */
 .pos .product-screen{
- background-color: #dee2e6 !important;
+ background-color: e9ecef !important;
 }
 .pos .rightpane {
- background-color: #dee2e6 !important;
+ background-color: e9ecef !important;
 }
 .pos .leftpane {
-  background-color: #dee2e6 !important;
+  background-color: e9ecef !important;
 }
 .pos .rightpane .product-name {
     font-size: 20px !important;
@@ -619,7 +619,7 @@
 }
 
 .pos .payment-screen .top-content {
-   background-color: #dee2e6 !important;
+   background-color: e9ecef !important;
 }
 .pos .payment-screen .top-content-center .mb-0 {
   margin-bottom: 0 !important;
@@ -627,10 +627,10 @@
   font-weight: bolder;
 }
 .pos .payment-screen .left-content {
-   background-color: #dee2e6 !important;
+   background-color: e9ecef !important;
 }
 .pos .payment-screen .title-category {
-   background-color: #dee2e6 !important;
+   background-color: e9ecef !important;
    font-size: 30px !important;
    font-weight: bolder !important;
 }
@@ -640,8 +640,8 @@
    border-radius: 4px !important;
 }
 .pos .payment-screen .button {
-  background: #0077b6 !important;
-  background-color:#0077b6 !important;
+  background: #007bff !important;
+  background-color:#007bff !important;
   border-color: #fff !important;
   color: #fff !important;
   font-weight: bolder !important;
@@ -654,11 +654,11 @@
    background-color: #fff !important;
 }
 .pos .payment-screen .right-content {
-   background-color: #dee2e6 !important;
+   background-color: e9ecef !important;
 }
 
 .pos .button.validation:hover {
-  background:#0077b6 !important;
+  background: #007bff !important;
     background-color: rgb(0, 123, 255);
     background-position-x: 0%;
     background-position-y: 0%;
@@ -673,9 +673,9 @@
   background-position-y: 0%;
   background-repeat: repeat;
   background-attachment: scroll;
-  background-image: #0077b6 !important;
+  background-image: #007bff !important;
   background-size: auto;
   background-origin: padding-box;
   background-clip: border-box;
-  border: #0077b6 !important;
+  border: #007bff !important;
 }
